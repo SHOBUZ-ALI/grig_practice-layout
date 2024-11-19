@@ -9,7 +9,7 @@
     
     display: grid;
     margin: 50px 50px;
-    grid-template-columns: repeat(3,1fr) ;
+    grid-template-columns:70px 1fr 1fr 1fr  ;
     grid-template-rows: 50px 300px 50px;
 
 }
@@ -21,4 +21,11 @@
 .five{background-color: pink;
     grid-column: 1/-1;
 
+}
+#a{background-color: beige;}
+#b{background-color: peru}
+#c{background-color: purple;}
+.three {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
